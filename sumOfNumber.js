@@ -1,8 +1,8 @@
 
 function sumOfNumber(){
-    let sum = 1;
+    let sum = 0;
 
-    for(let i = 1; i <= 7; i++){
+    for(let i = 0; i <= 7; i++){
         sum =  sum * i;
         console.log(sum);
     }
