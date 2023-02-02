@@ -1,4 +1,4 @@
-const x = 10;
-const y = 20;
-
-const temp = x;
+function add(a, b){
+    return a + b;
+  }
+  console.log(add("adam" + "eve"))
