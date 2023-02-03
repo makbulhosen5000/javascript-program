@@ -1,6 +1,17 @@
-//slice, splice, array type,
-let names = [10,50,10,20,30,40,50];
-console.log(names);
-let removeItem = names.splice(1,3);
-console.log(removeItem);
-console.log(names);
+const shoppingCart = [
+  {name: 'shirt', price: 400},
+  {name: 'pant', price: 1200},
+  {name: 'belt', price: 200},
+];
+
+function totalCost(products){
+  let sum = 0;
+  for(let i = 0; i < products.length;i++){
+     const product = products[i]; 
+     sum + product.price;    
+
+  }
+  return sum;
+}
+const totalPrice = totalCost(shoppingCart);
+console.log(totalPrice);
